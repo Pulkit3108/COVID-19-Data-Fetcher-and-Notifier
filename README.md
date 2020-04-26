@@ -1,6 +1,7 @@
 # CSF_Ninjas
 
 The Final directory contains the final version of the project.
+Start xampp server, in htdocs make folder csf_ninjas put all the files from the FINAL directory and visit http://localhost/csf_ninjas/index.html
 
 
 
