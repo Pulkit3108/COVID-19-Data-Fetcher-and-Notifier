@@ -13,3 +13,4 @@ In function updateMap() we fetched data from covid-19 data set from various webs
 Then we took their latitude and longitude to display on map.
 Also we wrote a condition regarding corona cases so that we can show places with different color markers(easyto identify).
 Also we set interval for updating the data set to 20 sec.
+Checkout the screenshot rohanmap.jpeg
