@@ -3,7 +3,10 @@
 The Final directory contains the final version of the project.
 Start xampp server, in htdocs make folder csf_ninjas put all the files from the FINAL directory and then visit http://localhost/csf_ninjas/index.html When you open the index.html page if you wish to see the map please let the page load for atleast 1 minute. The red markers indicate the places where the virus become severe !
 
-
+to run the python codes you need to:
+pip install bs4
+pip install plyer
+pip install tabulate
 
 
 First we imported notification package from plyer library so that the output will be shown as a notification bar.
