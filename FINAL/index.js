@@ -1,6 +1,6 @@
 function updateMap(){
     console.log("Updating map with realtime data")
-    fetch("/csvjson.json")
+    fetch("/csf_ninjas/csvjson.json")
     .then(response => response.json())
     .then(rsp => {
         //console.log(rsp)
