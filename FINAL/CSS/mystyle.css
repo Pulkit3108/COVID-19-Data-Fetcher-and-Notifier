@@ -1,0 +1,17 @@
+body {
+  background-color: lightblue;
+}
+
+.features{
+  text-align: center;
+}
+
+.button{
+  position: absolute;
+
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
