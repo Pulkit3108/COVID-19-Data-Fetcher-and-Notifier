@@ -1,5 +1,5 @@
 # Real-time COVID-19 Data Fetcher and Notifier
-This repository contains two python scripts, one to get COVID-19 update notifications in real-time **(notifier.py)** and the other one to fetch COVID-19 data of all states in India **(datafetcher.py)**. You can also save it in a CSV file.
+This repository contains two python scripts, one to get COVID-19 update notifications of any state in India in real-time **(notifier.py)** and the other one to fetch COVID-19 data of all states in India **(datafetcher.py)**. You can also save this data in a CSV file.
 It also has a frontend page **(index.html)** that displays COVID-19 precautions. You can download the COVID-19 notifier and data fetcher script from here. You can also navigate to the map **(map.html)** which displays a real-time COVID-19 update across the world. If you wish to see the map please let the page load for atleast 1 minute
 The red markers indicate the places where the virus becomes severe.
 
@@ -23,10 +23,7 @@ The red markers indicate the places where the virus becomes severe.
 
 > COVID-19 Data Fetcher:
 
-![Screenshot (172)](https://user-images.githubusercontent.com/46241207/167252548-78cb064c-2111-4691-9a94-227d94a7025d.png)
-
-
-
+![Screenshot 2022-05-07 173519](https://user-images.githubusercontent.com/46241207/167253623-c938ddfd-f255-4448-87be-4709f4c7bb7c.png)
 
 
 
