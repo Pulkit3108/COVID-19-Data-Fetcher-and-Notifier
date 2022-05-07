@@ -3,6 +3,8 @@ This repository contains two python scripts, one to get COVID-19 update notifica
 It also has a frontend page **(index.html)** that displays COVID-19 precautions. You can download the COVID-19 notifier and data fetcher script from here. You can also navigate to the map **(map.html)** which displays a real-time COVID-19 update across the world. If you wish to see the map please let the page load for atleast 1 minute
 The red markers indicate the places where the virus becomes severe.
 
+> Website Link: https://pulkit3108.github.io/COVID-19-Data-Fetcher-and-Notifier/
+
 > APIs Link:
 >
 > https://www.mygov.in/covid-19/
