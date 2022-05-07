@@ -1,6 +1,6 @@
 body::after {
   content: "";
-  background: url('/img/viktor-forgacs-FcDqdJUM6B4-unsplash.jpg') no-repeat center center fixed;
+  background: url('https://images.unsplash.com/photo-1583423230902-b653abc541eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
