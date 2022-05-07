@@ -4,8 +4,8 @@ It also has a frontend page **(index.html)** that displays COVID-19 precautions.
 The red markers indicate the places where the virus becomes severe.
 
 > APIs Link:
-https://www.mygov.in/covid-19/
-https://coronadatascraper.com/
+> https://www.mygov.in/covid-19/
+> https://coronadatascraper.com/
 ## Working
 > Starting Page:
 ![Screenshot (167)](https://user-images.githubusercontent.com/46241207/167252494-06780d21-1160-4163-91b6-4a254cb57b5f.png)
