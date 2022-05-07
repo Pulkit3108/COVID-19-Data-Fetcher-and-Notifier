@@ -37,7 +37,7 @@ if __name__ == "__main__":
         'Active': active,
         'Discharged': discharged,
         'Deaths': deaths,
-        'Vaccination': vaccination,
+        'Vaccinations': vaccination,
     }
     print('\n\n-----------------------------------COVID-19 Data Fetcher-----------------------------------\n')
     while(1):

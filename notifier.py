@@ -26,7 +26,7 @@ if __name__ == "__main__":
         dataList = soup.find_all("div", {"class": "st_all_counts"})[
             i].get_text().split('\n')
         myDataStr[stateName] = [dataList[1].split(' ')[1], dataList[2].split(
-            ' ')[1], dataList[3].split(' ')[1], dataList[4].split(' ')[1], dataList[6].split(' ')[1]]
+            ' ')[1], dataList[3].split(' ')[1], dataList[4].split(' ')[1]]
     print('\n\n-------------------------COVID-19 Notifier-------------------------\n')
     while(1):
         s = input("Enter the Name of The State (or Enter 0 to exit): ")
@@ -35,7 +35,7 @@ if __name__ == "__main__":
             break
         if s in myDataStr.keys():
             nTitle = 'Cases of COVID-19'
-            nText = f"STATE : {s}\nConfirmed : {myDataStr[s][0]}\nActive : {myDataStr[s][1]}\nDischarged : {myDataStr[s][2]}\nDeaths : {myDataStr[s][3]}\nVaccination : {myDataStr[s][4]}\n"
+            nText = f"State : {s}\nConfirmed : {myDataStr[s][0]}\nActive : {myDataStr[s][1]}\nDischarged : {myDataStr[s][2]}\nDeaths : {myDataStr[s][3]}\n"
             notify_me(nTitle, nText)
             time.sleep(2)
         else:
