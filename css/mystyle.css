@@ -1,6 +1,6 @@
 body::after {
   content: "";
-  background: url('/COVID-19-Data-Fetcher-and-Notifier/img/viktor-forgacs-FcDqdJUM6B4-unsplash.jpg') no-repeat center center fixed;
+  background: url('/img/viktor-forgacs-FcDqdJUM6B4-unsplash.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
