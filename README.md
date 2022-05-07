@@ -1,26 +1,28 @@
-# CSF_Ninjas
+# Realtime COVID-19 Data Fetcher and Notifier
+This repository contains two python scripts, one to get COVID-19 update notifications in real-time **(notifier.py)** and the other one to fetch COVID-19 data of all states in India **(datafetcher.py)**. You can also save it in a CSV file.
+It also has a frontend page **(index.html)** that displays COVID-19 precautions. You can download the COVID-19 notifier and data fetcher script from here. You can also navigate to the map **(map.html)** which displays a real-time COVID-19 update across the world. If you wish to see the map please let the page load for atleast 1 minute
+The red markers indicate the places where the virus becomes severe.
 
-The Final directory contains the final version of the project.
-Start xampp server, in htdocs make folder csf_ninjas put all the files from the FINAL directory and then visit http://localhost/csf_ninjas/index.html When you open the index.html page if you wish to see the map please let the page load for atleast 1 minute. The red markers indicate the places where the virus become severe ! Zoom inside the map for a better look xD
+> APIs Link:
+https://www.mygov.in/covid-19/
+https://coronadatascraper.com/
+## Working
+> Starting Page:
+![Screenshot (167)](https://user-images.githubusercontent.com/46241207/167252494-06780d21-1160-4163-91b6-4a254cb57b5f.png)
 
-to run the python codes you need to:
-pip install bs4
-pip install plyer
-pip install tabulate
+> COVID-19 Map:
+![Screenshot (168)](https://user-images.githubusercontent.com/46241207/167252544-dfc02a87-5600-4a50-b572-7d4f8f470b2f.png)
+
+> COVID-19 Reatime Notifier:
+![Screenshot (171)](https://user-images.githubusercontent.com/46241207/167252550-f5229523-fe79-40a8-bd09-83a8b60b46a4.png)
+
+> COVID-19 Data Fetcher:
+![Screenshot (172)](https://user-images.githubusercontent.com/46241207/167252548-78cb064c-2111-4691-9a94-227d94a7025d.png)
 
 
-First we imported notification package from plyer library so that the output will be shown as a notification bar.
-Then we imported BeautifulSoup package from bs4 library so that we can pull data out of website.
-Then the function notify_me() takes two arguments title and message . It will be shown in our notification bar.
-Then the function getDataFromUrl() will fetch data from the listed website which is mohfw.gov.in.
-Then we display the fetched data using for loop which can be shown both on notification bar and terminal.
 
-New feature: Realtime Corona MAP-JS
 
-For creating a realtime corona map we used Js Mapbox.
-In function updateMap() we fetched data from covid-19 data set from various websites.
-Then we took their latitude and longitude to display on map.
-Also we wrote a condition regarding corona cases so that we can show places with different color markers(easyto identify).
-Also we set interval for updating the data set to 20 sec.
-Checkout the screenshot rohanmap.jpeg
-The red marker indicate the places where the virus become severe !
+
+
+
+
