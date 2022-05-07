@@ -41,7 +41,7 @@ if __name__ == "__main__":
     }
     print('\n\n-----------------------------------COVID-19 Data Fetcher-----------------------------------\n')
     while(1):
-        print('Enter 1 to get data in CSV file:')
+        print('Enter 1 to save data in a CSV file:')
         print('Enter 2 to display data:')
         print('Enter 0 to exit:')
         c = int(input('\nEnter your choice: '))
